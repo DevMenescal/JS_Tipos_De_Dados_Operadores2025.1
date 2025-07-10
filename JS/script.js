@@ -138,6 +138,54 @@ EMPTY VALUES (NULL, UNDEFINED) */
     console.log(`A multiplicação de 3 * 3 é: ${3*3}`);
     console.log("Vamos testar a Concatenação com a " + `interpolação para ver se fica ${5+5}`); // mix de concatenação e interpolação.
     
+    /* == Booleans
+    ● Os booleans possuem apenas dois valores: true ou 
+        false;
+    ● Qualquer comparação, utilizando os sinais >, <, ==, 
+        resulta em um booleano;
+    ● Mais a frente veremos que este tipo é importante 
+        para estruturas de condição e repetição;*/
+
+    // 8 - Booleans
+
+    console.log(typeof true);
+
+    console.log(typeof false);
+
+    console.log(5 > 2);
+
+    console.log(200 < 100);
+
+    console.log(3 == 3);
+
+    console.log(3 == 4);
+    
+    
+    /* == Comparação de idêntico ==
+
+    ● Os operadores === e !== funcionam como == e !=;
+    ● Porém também levam em consideração o tipo do 
+    dado;
+    ● Estes operadores necessitam que o tipo e o dado 
+    sejam iguais/diferentes;
+    ● Devemos tentar ao máximo utilizar estes 
+    operadores;*/    
+
+
+    // 10 -Idêntico
+
+    console.log(9 == "9"); // true
+
+    console.log(9 === "9"); // false 
+
+    console.log(9 != "9"); // false
+
+    console.log(9 !== "9"); // true
+    
+    
+    
+    
+    
     
     
 
